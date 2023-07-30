@@ -1,0 +1,232 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.884)50%,rgba(0, 0, 0, 0.884)50%);
+    background-size:auto;
+    color: beige;
+
+}
+
+
+.header{
+    display: flex;
+    padding: 20px;
+    justify-content:space-between;
+    align-items: center;
+    color: grey;
+    position: relative;
+    animation-name: head;
+    animation-timing-function: 3s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: ease-in;
+}
+
+@keyframes head{
+    0%{top:-100px;}
+    100%{top:0px;}
+}
+
+.nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav a{
+    color: orange;
+}
+
+.nav a:hover{
+    background-color: transparent;
+    transition: 0.2s ease-in;
+    color: orange;
+    border-bottom: 2px solid;
+}
+
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    
+}
+
+.nav ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav ul a{
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.nav button{
+    width: 135px;
+    height: 35px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+    color: black;
+    background: orange;
+}
+
+.nav button:hover{
+    background: transparent;
+    color: orange;
+    border: 1px solid orange;
+}
+
+.ctop p{
+    text-align: center;
+    width: 160px;
+    height: 25px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid orange;
+    padding:20px 20px;
+}
+
+
+.main{
+    margin-left: 90px;
+    margin-top: 40px;
+    font-size: 28px;
+    position: relative;
+    animation-name: dea;
+    animation-timing-function: 3s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: ease-in;
+}
+
+@keyframes dea{
+    0%{left:-1000px;}
+    100%{left:0px;}
+}
+
+
+.image{
+    float: right;
+    margin-right: 170px;
+    margin-top: -450px;
+}
+
+.image img{
+    animation-name: pic;
+    animation-timing-function: 4s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-direction: ease-in;
+    opacity: 0;
+}
+
+@keyframes pic{
+    0%{opacity:0;}
+    100%{opacity: 1;}
+}
+
+
+.image img{
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    box-shadow: -1px 1px 10px grey;
+    border-radius: 8px;
+    
+}
+
+
+h1{
+    color: orange;
+    font-family: Arial;
+}
+
+.acc{
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.acc img{
+    width: 30px;
+    height: 29px;
+    margin-top: 10px;
+}
+
+
+.acc1:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+
+.acc2:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+
+.acc3:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+
+.acc4:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+
+.acc5:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+
+.acc6:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+.acc7:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+.acc8:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
